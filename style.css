@@ -1,0 +1,102 @@
+h1, h2{
+  font-family: 'Oswald', sans-serif;
+  color: rgba(0,0,0,0.8)
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: ##F2F2F2;
+  color:rgba(0, 0, 0, 0.54);
+  font-size: 16px;
+  line-height: 20px!important;
+  letter-spacing: 0!important;
+  font-weight: normal;
+}
+
+strong{
+  font-weight: normal;
+}
+
+a{
+  color: #4f8a8b;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #ea907a;
+}
+
+ul{
+  padding: 0px
+}
+li{
+  display: inline;
+  width: 100%;
+  margin: 0 20px;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white{
+  background-color: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 100%;        /* Set the width */
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.remove-bullet{
+    list-style: none;
+}
+
+.btn-red{
+  background-color: #ea907a;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 100px;
+}
+
+#boss{
+  border: 3px solid #ea907a;
+}
+
+/*MEDIA QUERIES/*
+@media (max-width: 960px) {
+
+/* For a screen < 960px, this CSS will be read */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+    margin: 0 auto
+  }
+}
