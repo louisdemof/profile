@@ -23,6 +23,7 @@ body{
 
 strong{
   color: #4f8a8b;
+  font-weight: 900
 }
 
 a{
@@ -67,11 +68,20 @@ li{
     list-style: none;
 }
 
+/* To PUT 2 pictures next to each other */
+.image-fit {
+  width: 100%;
+}
+
 .btn-red{
   background-color: #4f8a8b;
   color: white;
   padding: 7px 10px;
   border-radius: 7px;
+}
+
+.img-next{
+  display:block;
 }
 
 .img-circle{
