@@ -22,7 +22,7 @@ body{
 }
 
 strong{
-  font-weight: normal;
+  color: #4f8a8b;
 }
 
 a{
@@ -32,6 +32,7 @@ a{
 
 a:hover{
   color: #ea907a;
+  background-color: white
 }
 
 ul{
@@ -42,6 +43,10 @@ li{
   width: 100%;
   margin: 0 20px;
 }
+.img-half{
+  max-width: 50%;
+}
+
 
 .container{
   width: 700px;
@@ -63,7 +68,7 @@ li{
 }
 
 .btn-red{
-  background-color: #ea907a;
+  background-color: #4f8a8b;
   color: white;
   padding: 7px 10px;
   border-radius: 7px;
@@ -76,6 +81,10 @@ li{
 
 #boss{
   border: 3px solid #ea907a;
+}
+
+#remove-space{
+  text-decoration: none;
 }
 
 /*MEDIA QUERIES/*
