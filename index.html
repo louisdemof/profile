@@ -6,69 +6,208 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>My profile</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+ <!-- Favicon -->
+  <link rel='icon' href='img/smiley_favicon.png' type='image/x-icon'/ >
+  <!-- Google Fonts / Roboto r-m-b / Roboto Mono r-m-b -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Font icons / Google Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- JavaScript Scripts -->
+  <script type="module" src="js/app.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-  <div class="container">
-    <div class="card-white">
-      <h1>Hello I am Louis</h1>
-      <img src="images/photo.jpg" alt="Louis de Moffarts"  class="img-circle" id="boss">
-         <h2>Aspiring Programmer !</h2>
-          <p>
-          I am a web developer with experience in <strong>digital transformation</strong>, banking and the finance industry.
-          </p>
-          <p>
-          I am passionate about sports, especially <strong>rugby</strong>. I also love to cook and make my own <strong>peanut butter</strong>.
-          </p>
+  <nav class="navbar nav-grid">
+    <div class="nav-grid-item">
+      <a href="#" class="logo"> &lt; Louis de Moffarts /> </a>
+      <ul class="navbar-menu">
+        <li><h6><a href="#projects-section" class="line-link" id="project-btn">Projects</a></h6></li>
+        <li><h6><a href="#about-section" class="line-link" id="about-btn">About</a></h6></li>
+        <li><h6><a href="LouisdeMoffartsCV.pdf" target="_blank" rel=”noopener noreferrer” class="line-link">Resume</a></h6></li>
+        <li><h6><a href="#contact-section" class="line-link">Contact</a></h6></li>
+      </ul>
+      <div class="navbar-burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header START -->
+  <header class="header header-grid">
+    <div class="header-grid-item">
+      <h1 class="header__subtitle u-mb-1">Hi! Bonjour! Hallo! Olá!</h1>
+      <div class="u-relative">
+      <h1 class="header__title u-mb-2">
+        I am Louis, a Brussels-based full-stack developer and consultant.</h1>
+        <a class="btn-primary header__btn" href="mailto:louisdemof@gmail.com">
+          <div class="btn-container">
+            <h6>Get in touch </h6>
+            <span class="material-icons">mail_outline</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Projects START -->
+  <div class="projects projects-grid">
+    <div class="projects-grid-item">
+      <a class="anchor" id="projects-section"></a>
+      <h6 class="section-title project-title-grid-item">Selected Projects</h6>
+      <div class="col-2-container">
+        <!-- JS / cardView insert cards here -->
+      </div>
     </div>
 
-    <div class="card-white">
-      <h1>Rugby</h1>
-        <div>
-          <img src="images/rugby1.jpg" alt="Champions" class="image-fit">
-          <p>I started playing ruby when I was 12 at boarding school. After enjoying throwing the ball around with my teammates, I joined <a href="https://www.instagram.com/rclhofficiel/">Rugby Club La Hulpe</a>to play more regulary and at a more competitive level.</p>
-          <p>Since then, I have never stopped playing and rugby brought me to so many places competing in european championships on a yearly basis. </p>
-          <img src="images/rugby2.jpg" alt="Champions" class="image-fit">
-          <p>My proudest achievements so far are my first international cap with the Belgium national senior team and to have progressed through the ranks from division 3 to belgian champion with la Hulpe in only 6 years time (see picture above).</p>
-        </div>
-        <a href="https://www.youtube.com/watch?v=63vhYxmXdtQ" target="_blank" class="btn-red">Check some of my footage here! <i class="fas fa-football-ball"></i></a>
-    </div>
+  </div> <!-- End of Projects -->
 
-    <div class="card-white">
-      <h1>My peanut butter brand: Delincenut</h1>
-      <img src="images/Delincenut.png" alt="Delincenut" class="img-half">
-         <p>Delincenut is a <strong>delicious and healthy homemade peanut butter</strong> which is an alternative to industrial nut butters.</p>
-         <p>It is <strong>produced locally</strong>in Brussels and exists under two forms: the sporty and the greedy. The sporty has no sugar added to its recipe and contains more proteins than the greedy which contains some chocolate, adding some sweet savour to its taste.</p>
-         <p>The pastes are produced with <strong>natural ingredient only</strong>, no artificial ingredients such as sweeteners or food preservatives are added.</p>
-         <p>The packaging process is <strong>zero-waste</strong> and plastic free as our glass jars are collected directly from consumers or fromrestaurants. They are then cleaned thorougly and rebranded.</p>
-
-          <h2>Follow Delincenut here!</h2>
-            <a href="https://www.instagram.com/delincenut/" target="_blank" class="link" id="remove-space">
-              <i class="fab fa-instagram"></i>
-            </a>
-    </div>
-
-    <div class="card-white">
-      <h2>Follow Me</h2>
-        <ul class="remove-bullet">
-          <li>
-            <a href="https://github.com/louisdemof" target="_blank" class="link" id="remove-space">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/louis-de-moffarts-06573345/" target="_blank" class="link" id="remove-space">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/louisdemof/" target="_blank" class="link">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
+  <!-- Skills START -->
+  <div class="skills skills-grid">
+    <div class="skills-grid-item">
+      <h6 class="section-title section-title--white">skills</h6>
+      <div class="tag-container">
+        <h5 class="tag tag--hmtl">HTML</5>
+        <h5 class="tag tag--css">CSS</5>
+        <h5 class="tag tag--css">Bootstrap</5>
+        <h5 class="tag tag--backend">Ruby</5>
+        <h5 class="tag tag--backend">Ruby on Rails</5>
+        <h5 class="tag tag--backend">SQL</5>
+        <h5 class="tag tag--js">React</5>
+        <h5 class="tag tag--js">JavaScript ES6</5>
+        <h5 class="tag tag--tool">npm</5>
+        <h5 class="tag tag--tool">Git</5>
+        <h5 class="tag tag--tool">Github</5>
+        <h5 class="tag tag--tool">Heroku</5>
+        <h5 class="tag tag--design">UX/UI</5>
+        <h5 class="tag tag--design">Figma</5>
+        <h5 class="tag tag--design">Illustrator</5>
+        <h5 class="tag tag--SF">Salesforce Admin</5>
+        <h5 class="tag tag--SF">Salesforce Service Cloud</5>
+      </div>
     </div>
   </div>
+
+  <!-- About START -->
+  <div class="about about-grid">
+    <div class="about-grid-item">
+      <a class="anchor" id="about-section"></a>
+      <h6 class="section-title">about</h6>
+      <div class="col-2-container">
+        <!-- Col 1 LEFT -->
+        <div>
+          <h2 class="about-title">Hello! I am Louis, it's a pleasure. </h2>
+          <p  class="about-text">After 3 years of consultancy in finance and
+            digital transformation, I decided to make a career shift to
+            become a full-stack developer. I recently
+            graduated from Le Wagon, a coding bootcamp in Brussels.
+          </p>
+          <p class="about-text">I've decided to switch my career from consulting
+            to web development to pursue my love of continuous learning,
+            unleash my creativity and to build things! I am currently still
+            employed as a consultant at Deloitte where I have learned to guide
+            companies through their digital transformation while improving
+            delivering high-quality work under tight deadlines.
+          </p>
+          <p class="about-text">
+            When I am not coding or learning something new, I like to cook and
+            work on finding best peanut butter recipes. I also enjoy playing rugby
+            for my club La Hulpe.
+          </p>
+          <a class="link-icon__container" href="LouisdeMoffartsCV.pdf" target="_blank" rel=”noopener noreferrer”>
+            <span class="link-icon material-icons">get_app</span>
+            <h5>Download resume</h5>
+          </a>
+        </div>
+        <!-- Col 2 RIGHT -->
+        <div>
+          <img class="about__img" src="images/photo.jpg" alt="profile-pic">
+        </div>
+      </div>
+    </div>
+  </div> <!-- end About-->
+
+  <!-- Experience START -->
+  <div class="experience exp-grid">
+    <div class="exp-grid-item">
+      <h6 class="section-title">experience</h6>
+      <div class="col-2-container">
+         <!-- Col 1 LEFT -->
+        <div>
+          <h5 class="exp-title">Work Experience</h5>
+          <div class="exp-text">
+            <p>2018 - 2020 Brussels</p>
+            <p>Deloitte</p>
+            <p>Constultant at Deloitte Digital</p>
+          </div>
+          <div class="exp-text">
+            <p>2017 - 2018 Brussels</p>
+            <p>Deloitte</p>
+            <p>M&A Analyst</p>
+          </div>
+          <div class="exp-text">
+            <p>2016 - 2017 Brussels | Lisbon</p>
+            <p>B&P Paribas CIB</p>
+            <p>Structured Product Sales assistant</p>
+          </div>
+          <div class="exp-text">
+            <p> 2016 - 2016 Brussels</p>
+            <p>Deliveroo</p>
+            <p>Business Development intern</p>
+          </div>
+        </div>
+         <!-- Col 2 RIGHT -->
+        <div>
+          <h5 class="exp-title">Education</h5>
+          <div class="exp-text">
+            <p> 2020 Brussels</p>
+            <p>Le Wagon</p>
+            <p>Full Stack Developer Bootcamp</p>
+          </div>
+          <div class="exp-text">
+            <p>2015-2018 Lisbon</p>
+            <p>NOVA SBE</p>
+            <p>International Masters in Finance</p>
+          </div>
+          <div class="exp-text">
+            <p>2012 - 2015 Maastricht</p>
+            <p>Maastricht SBE</p>
+            <p>Bachelor of International Business</p>
+          </div>
+
+          <h5 class="exp-title">Languages</h5>
+          <p>English > Fluent</p>
+          <p>French > Fluent</p>
+          <p>Dutch > Proficient</p>
+          <p>Portuguese > Intermediate</p>
+          <p>Spanish > Intermediate</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer START -->
+  <footer class="footer footer-grid u-text-white">
+    <div class="footer-grid-item">
+      <a class="anchor" id="contact-section"></a>
+      <h6 class="section-title">get in touch</h6>
+      <p class="footer__mail"><a href="mailto:louisdemof@gmail.com">louisdemof@gmail.com</a></p>
+      <ul class="footer__social">
+        <li><h5><a href="https://github.com/louisdemof" target="_blank" rel=”noopener noreferrer”>Github</a></h5></li>
+        <li><h5><a href="https://www.linkedin.com/in/louis-de-moffarts-06573345/" target="_blank" rel=”noopener noreferrer”>LinkedIn</a></h5></li>
+        <li><h5><a href="https://www.instagram.com/louisdemof/" target="_blank" rel=”noopener noreferrer”>Instagram</a></h5></li>
+        <li><p class="footer__copyright">Designed and coded with ❤ by Louis de Moffarts © 2020</p></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill"></script>
+
 </body>
 </html>
