@@ -37,7 +37,7 @@ const projectList = [
   {
     name: "Equip'R",
     text: "Copy cat of Airbnb to rent sport equipment built on Ruby on Rails in one week based on the MVC Framework. Creation of a search engine to look for specific equipment.",
-    img: "equipr",
+    img: "equipr2",
     link: {
       site: "https://equipr.herokuapp.com/",
       repo: "https://github.com/mailysrenson/-equipr"
