@@ -41,7 +41,22 @@
   <!-- Header START -->
   <header class="header header-grid">
     <div class="header-grid-item">
-      <h1 class="header__subtitle u-mb-1">Hi! Bonjour! Hallo! Olá!</h1>
+      <h1 class="header__subtitle u-mb-1"><span class="type"></span></h1>
+        <script src="typed.js"></script>
+        <script>
+          var typed = new Typed(".type", {
+            strings: [
+              "Hi!",
+              "Bonjour!",
+              "Hallo!",
+              "Olá!",
+              "Hola!"
+              ],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true,
+          });
+        </script>
       <div class="u-relative">
       <h1 class="header__title u-mb-2">
         I am Louis, a Brussels-based full-stack developer and consultant.</h1>

@@ -1,5 +1,4 @@
 /////////////////////////
 // Controller imports
 /////////////////////////
-import * as cardView from './views/cardView.js';
-
+import * as cardView from './components/cardView.js';
