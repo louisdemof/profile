@@ -380,13 +380,16 @@ ol {
   margin-right: .4rem; }
 
 .dot--css {
-  background-color: #ffbdcb; }
+  background-color: #FF784B; }
 
 .dot--js {
-  background-color: #f1e05a; }
+  background-color: #3DD278; }
 
 .dot--design {
-  background-color: #834bf6; }
+  background-color: #FFC837; }
+
+.dot--backend {
+  background-color: #F0323C; }
 
 .link-icon {
   display: inline;
