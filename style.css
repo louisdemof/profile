@@ -157,7 +157,8 @@ ol {
 .skills,
 .about,
 .experience {
-  padding-bottom: 8rem; }
+  padding-bottom: 8rem;
+}
 
 .footer {
   padding-bottom: 3rem; }
@@ -198,7 +199,7 @@ ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #3DD278;
+  background-color: white;
   transition: left .4s ease-in; }
   @media only screen and (min-width: 48.1em) {
     .navbar-menu {
@@ -439,7 +440,7 @@ ol {
   background-color: #D250E6; }
 
 .about {
-  background-color: #3DD278; }
+  background-color: #white; }
 
 .about-title {
   margin-top: 3rem; }
@@ -459,6 +460,12 @@ ol {
     .about__img {
       margin-top: 3rem; } }
 
+.experience {
+  background: #020202;
+  color: white; }
+
+
+
 .exp-title {
   margin-top: 4rem;
   margin-bottom: 2rem;
@@ -472,11 +479,13 @@ ol {
   font-weight: 400; }
 
 .footer {
-  background-color: #020202; }
+  background-color: #white;
+  color: black; }
 
 .footer a {
   padding-bottom: .5rem;
-  border-bottom: 1px solid transparent; }
+  border-bottom: 1px solid transparent;
+  color: black; }
 
 @media only screen and (min-width: 48.1em) {
   .footer a:hover {
