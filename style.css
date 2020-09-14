@@ -18,7 +18,6 @@ h2 {
   color: #4D4AC0
 }
 
-
 *,
 *::before,
 *::after {
@@ -26,9 +25,6 @@ h2 {
   padding: 0;
   box-sizing: inherit; }
 
-@font-face {
-  font-family: 'JetMono';
-  src: url("../../css/font/JetBrainsMono-Regular.woff") format("woff"); }
 
 html {
   font-size: 62.5%;
