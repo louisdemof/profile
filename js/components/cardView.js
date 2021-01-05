@@ -1,6 +1,48 @@
 const projectList = [
   {
-    name: "Konnected",
+    name: "Drive Me Nuts",
+    text: "E-Commerce website build on Ruby Rails for a belgian brand of peanut butter. The website include a cart, an order and a shipping model as well as interfaces for payment integration and geo-location.",
+    img: "drivemenuts",
+    link: {
+      site: "https://www.drivemenuts.be/",
+      repo: "https://github.com/louisdemof/drivemenuts"
+    },
+    stack: [
+      {
+        name: "HTML",
+        color: "html"
+      },
+      {
+        name: "CSS",
+        color: "css"
+      },
+      {
+        name: "Ruby",
+        color: "backend"
+      },
+      {
+        name: "Ruby on Rails",
+        color: "backend"
+      },
+      {
+        name: "SQL",
+        color: "backend"
+      },
+        {
+        name: "API",
+        color: "backend"
+      },
+      {
+        name: "JavaScript ES6",
+        color: "js"
+      },
+      {
+        name: "UX/UI",
+        color: "design"
+      },
+    ]
+  },
+  {   name: "Konnected",
     text: "Web application build on Ruby Rails that connects tech alumni to small companies. Two interfaces exist one for business owners to post their projects and one for junior dev's to apply to those.",
     img: "Konnected",
     link: {
